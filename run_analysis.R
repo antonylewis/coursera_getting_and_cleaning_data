@@ -64,5 +64,5 @@ aggdata <- subset(aggdata, select=c(-subject_number, -activity_description))
 names(aggdata)[1:2] <- c("subject_number", "activity_description")
 
 # Now write the two files
-write.table(tidy_set,"tidy_set.txt",row.names=FALSE)
-write.table(aggdata,"averages.txt",row.names=FALSE)
+write.table(tidy_set,"tidy_set.txt", row.names=FALSE)
+write.table(aggdata,"averages.txt", row.names=FALSE)
