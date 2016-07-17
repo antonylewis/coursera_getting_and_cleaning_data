@@ -12,6 +12,6 @@ The repo includes:
 
 Plus the data itself:
 
-4) tidy_set.csv - the tidy dataset
+4) tidy_set.txt - the tidy dataset in csv format
 
-5) averages.csv - the second tidy data set with the average of each variable for each activity and each subject
+5) averages.txt - the second tidy data set with the average of each variable for each activity and each subject in csv format
